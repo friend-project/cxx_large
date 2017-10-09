@@ -1,0 +1,31 @@
+@import "./../../scss/_base.scss";
+
+.box {
+  width: uc(1156);
+  margin: uc(40) 0 0;
+
+  text-align: center;
+
+  a {
+    display: inline-block;
+    height: uc(44);
+    margin: 0 uc(55);
+    padding: 0 uc(10);
+
+    color: #1a1a1a;
+    font-size: uc(16);
+    line-height: uc(44);
+    text-align: center;
+    text-decoration: none;
+
+    border: 0 solid #fff;
+    border-width: 0 0 2px;
+
+    &:hover,
+    &.active {
+      border: 0 solid #1a1a1a;
+      border-width: 0 0 2px;
+    }
+
+  }
+}

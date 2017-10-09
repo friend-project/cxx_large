@@ -1,0 +1,35 @@
+@import "./../../scss/_base.scss";
+
+.box {
+  min-height: uc(710);
+}
+.entry {
+  margin: uc(64) auto uc(20);
+  width: uc(690);
+  min-height: uc(300);
+
+  text-align: center;
+
+  background: #2e2e2e;
+
+  a {
+    text-decoration: none;
+  }
+  em {
+    display: block;
+    padding: uc(95) 0 0;
+
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: uc(70);
+  }
+  span {
+    display: block;
+    padding: uc(20) 0 0;
+
+    color: #fff;
+    font-size: 25px;
+  }
+}

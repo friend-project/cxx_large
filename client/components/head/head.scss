@@ -1,0 +1,18 @@
+@import "./../../scss/_base.scss";
+
+.head {
+  margin: uc(45) 0 0;
+}
+.logo {
+  margin: uc(1) auto 0;
+  width: uc(170);
+  height: uc(40);
+  background: url(./images/logo.png) no-repeat top center;
+  background-size: uc(170) uc(40);
+}
+[data-dpr="2"] .logo {
+  background: url(./images/logo@2x.png) no-repeat top center;
+}
+[data-dpr="3"] .logo {
+  background: url(./images/logo@2x.png) no-repeat top center;
+}

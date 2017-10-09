@@ -1,0 +1,4 @@
+export const BANNER_REQUEST = 'BANNER_REQUEST';
+export const BANNER_RECEIVE = 'BANNER_RECEIVE';
+export const BANNER_FAILURE = 'BANNER_FAILURE';
+

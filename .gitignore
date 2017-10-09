@@ -1,0 +1,17 @@
+# IDE
+.idea
+.DS_STORE
+.DS_Store
+
+# dependencies
+node_modules
+
+# production
+# assets
+
+# misc
+*.log
+*.swp
+npm-debug.log
+!logs
+uploads/

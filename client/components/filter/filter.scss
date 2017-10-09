@@ -1,0 +1,22 @@
+@import "./../../scss/_base.scss";
+
+.box {
+  position: absolute;
+  right: uc(40);
+  top: uc(10);
+}
+.btn {
+  width: uc(50);
+  height: uc(40);
+
+  background: url(./images/filter.png) no-repeat top center;
+  background-size: uc(50) uc(40);
+}
+
+[data-dpr="2"] .btn {
+  background: url(./images/filter@2x.png) no-repeat top center;
+
+}
+[data-dpr="3"] .logo {
+  background: url(./images/filter@3x.png) no-repeat top center;
+}
