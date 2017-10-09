@@ -11,7 +11,7 @@ import logger from './../library/logger';
 import config from './../build/dev.config';
 
 const app = new Koa();
-const port = process.env.PORT || 9520;
+const port = process.env.PORT || 9521;
 
 app.context.logger = logger;
 app.use(serve(path.resolve(__dirname, './../assets/')));
