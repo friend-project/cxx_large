@@ -7,6 +7,7 @@ import webpackMiddleware from 'koa-webpack';
 import routes from './../server/routes';
 import render from './../library/render';
 import logger from './../library/logger';
+import redirect from './../library/redirect';
 
 import config from './../build/dev.config';
 
@@ -15,6 +16,7 @@ const port = process.env.PORT || 9521;
 
 app.context.logger = logger;
 app.use(serve(path.resolve(__dirname, './../assets/')));
+app.use(redirect);
 
 if (process.env.NODE_ENV === 'development') {
   app.use(webpackMiddleware({
