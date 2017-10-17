@@ -4,15 +4,18 @@
   min-height: uc(710);
 }
 .entry {
-  margin: uc(64) auto uc(20);
+  margin: uc(27) auto uc(20);
   width: uc(690);
   min-height: uc(300);
 
   text-align: center;
 
-  background: #2e2e2e;
+  background-size: cover;
 
   a {
+    display: block;
+    width: uc(690);
+    height: uc(300);
     text-decoration: none;
   }
   em {

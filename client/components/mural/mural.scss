@@ -5,11 +5,13 @@
 }
 .mural {
   width: uc(1100);
-  margin: uc(56) auto;
+  margin: uc(27) auto;
+  @extend %clearfix;
 
   li {
     float: left;
     width: uc(335);
+    height: uc(310);
     margin: 0 0 uc(20);
 
     box-shadow: 0 2px 4px #ccc;
@@ -23,9 +25,11 @@
     }
 
   }
-  img {
-    width: 100%;
-    height: 100%;
+  a {
+    display: block;
+    width: uc(335);
+    height: uc(250);
+    background-size: cover;
   }
   h2 {
     height: uc(60);

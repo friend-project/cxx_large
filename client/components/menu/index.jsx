@@ -37,10 +37,6 @@ class Menu extends Component {
         link: '/about',
         name: '关于我们'
       },
-      {
-        link: '/copy',
-        name: '版权声明'
-      }
     ];
     const nav = data.map((d) => {
       const atv = d.link === act;

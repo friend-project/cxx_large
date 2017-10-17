@@ -27,11 +27,10 @@ class Mural extends Component {
                     <a
                       href={`${cfg.img}${v.img}`}
                       target="_blank"
-                    >
-                      <img
-                        src={`${cfg.img}${v.thumb_img}`}
-                      />
-                    </a>
+                      style={{
+                        backgroundImage: `url(${cfg.img}${v.thumb_img})`
+                      }}
+                    />
                   <h2>{v.name}</h2>
                 </li>
                 )
